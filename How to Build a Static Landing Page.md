@@ -18,7 +18,7 @@ end
 
 Build a view for the index action that has dummy content by creating an `index.html.erb` file in `app/views/static_pages`
 
-Hook up `config/routes.rb` so localhost:3030 can take us to the landing page
+Hook up `config/routes.rb` so `localhost:3030` can take us to the landing page
 
 ```ruby
 Rails.application.routes.draw do
