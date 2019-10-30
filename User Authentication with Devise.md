@@ -51,7 +51,10 @@ Some setup you must do manually if you haven't yet:
 
 ```
 
-### How to complete the steps listed above:
+# How to complete the steps listed above:
+
+
+## Step 1 - Setting the Default URL Options
 
 ```
 1. Ensure you have defined default URL options in your environments files. Here
@@ -63,8 +66,6 @@ Some setup you must do manually if you haven't yet:
      In production, :host should be set to the actual host of your application.
 
 ```
-
-## Step 1 - Setting the Default URL Options
 
 Open `config/environments/development.rb` and add the following config.action
 ```ruby
