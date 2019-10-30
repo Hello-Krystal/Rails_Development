@@ -32,3 +32,13 @@ Open `app/views/layouts/application.html.erb` and insert the following into the 
 </body>
 </html>
 ```
+
+FOR A LIGHT NAVBAR
+```html 
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+``` 
+
+FOR A DARK NAVBAR
+```html
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+```
