@@ -199,7 +199,7 @@ Open the application and adjust the navbar
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-md-0">
       <li class="nav-item">
-        <%= link_to new_place_path, class: 'nav-link' do %>
+        <%= link_to root_path, class: 'nav-link' do %>
           <i class="fa fa-plus-circle"></i>
           New Place
         <% end %>
